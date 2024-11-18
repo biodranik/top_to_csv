@@ -9,6 +9,30 @@ ZERO_FILLER: str = "0"
 TOP_HEADER_RE = re.compile(r"^\s*PID\s")
 
 
+def sort_by_total_cpu_usage(
+    pid_to_name: dict[int, str], measurements: list[dict[int, int]]
+) -> list[(int, str)]:
+    """Sorts pid_to_name by the total CPU usage in measurements and returns it as a list of tuples [(pid, name)]"""
+    pid_total_cpu: dict[int, int] = {}
+    # Sum all CPU usage
+    for pid_to_cpu in measurements:
+        for pid, cpu in pid_to_cpu.items():
+            pid_total_cpu[pid] = pid_total_cpu.get(pid, 0) + cpu
+
+    # Sort by total CPU usage
+    sorted_pid_total_cpu: list[(int, int)] = sorted(
+        list(pid_total_cpu.items()),
+        reverse=True,
+        key=lambda pid_total_cpu: pid_total_cpu[1],
+    )
+
+    sorted_pid_to_name: list[(int, str)] = []
+    for pid, total_cpu in sorted_pid_total_cpu:
+        sorted_pid_to_name.append((pid, pid_to_name[pid]))
+
+    return sorted_pid_to_name
+
+
 def top_to_csv(path_to_top_log: str):
     pid_to_name: dict[int, str] = {}
     measurements: list[dict[int, int]] = []
@@ -40,6 +64,8 @@ def top_to_csv(path_to_top_log: str):
         if len(pid_to_cpu) > 0:
             measurements.append(pid_to_cpu)
 
+    sorted_pid_to_name = sort_by_total_cpu_usage(pid_to_name, measurements)
+
     # Create CSV
     # CSV header goes first
     csv_content: str = (
@@ -51,7 +77,7 @@ def top_to_csv(path_to_top_log: str):
         + "\n"
     )
 
-    for pid, name in pid_to_name.items():
+    for pid, name in sorted_pid_to_name:
         csv_content += name + CSV_DELIMITER
 
         csv_content += CSV_DELIMITER.join(
