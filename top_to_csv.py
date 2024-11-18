@@ -1,5 +1,6 @@
 #!/usr/bin/env python3
 
+import os
 import re
 import sys
 
@@ -7,6 +8,18 @@ CSV_DELIMITER: str = ","
 ZERO_FILLER: str = "0"
 
 TOP_HEADER_RE = re.compile(r"^\s*PID\s")
+
+
+def prettify_name(command_with_args: list[str]) -> str:
+    """Cleans up unimportant command line details"""
+    name = (
+        os.path.basename(command_with_args[0])
+        if command_with_args[0][0] != "["
+        else command_with_args[0]
+    )
+    #    if name.startswith("python"):
+    name += " " + " ".join(command_with_args[1:])
+    return name
 
 
 def sort_by_total_cpu_usage(
@@ -55,9 +68,7 @@ def top_to_csv(path_to_top_log: str):
                 values = line.split()
                 pid = int(values[0])
                 cpu = round(float(values[8]))  # No need in floating point precision
-                name = values[11]
-                # name = " ".join(values[11:])  # join back the command line arguments
-
+                name = prettify_name(values[11:])  # Command line args split by space
                 pid_to_name[pid] = name
                 pid_to_cpu[pid] = cpu
         # Also process the last element.
