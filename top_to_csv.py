@@ -29,7 +29,9 @@ def top_to_csv(path_to_top_log: str):
             if line.startswith(" "):
                 values = line.split()
                 pid = values[0]
-                cpu = values[8]
+                cpu = str(
+                    round(float(values[8]))
+                )  # No need in floating point precision
                 name = values[11]
                 # name = " ".join(values[11:])  # join back the command line arguments
 
