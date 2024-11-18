@@ -28,10 +28,8 @@ def top_to_csv(path_to_top_log: str):
             #  188744 www-data  20   0   93180  38908   7168 S   4.0   0.0   6:03.28 nginx: worker process
             if line.startswith(" "):
                 values = line.split()
-                pid = values[0]
-                cpu = str(
-                    round(float(values[8]))
-                )  # No need in floating point precision
+                pid = int(values[0])
+                cpu = round(float(values[8]))  # No need in floating point precision
                 name = values[11]
                 # name = " ".join(values[11:])  # join back the command line arguments
 
@@ -54,7 +52,7 @@ def top_to_csv(path_to_top_log: str):
         csv_content += name + CSV_DELIMITER
 
         csv_content += CSV_DELIMITER.join(
-            (row[pid] if pid in row else ZERO_FILLER) for row in rows
+            str(row[pid] if pid in row else ZERO_FILLER) for row in rows
         )
         csv_content += "\n"
 
