@@ -14,11 +14,14 @@ def top_to_csv(path_to_top_log: str):
     rows: list = []
     with open(path_to_top_log, "r") as file:
         row: dict = {}
+        measurement_index: int = -1
 
         for line in file:
             #     PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
-            if line.startswith("\n") or TOP_HEADER_RE.search(line):
-                if len(row) > 0:
+            if TOP_HEADER_RE.search(line):
+                measurement_index += 1
+                # Drop the first measurement, it is inaccurate as top needs a delay to properly calculate it.
+                if measurement_index > 1 and len(row) > 0:
                     rows.append(row)
                 row = {}
                 continue
@@ -35,9 +38,6 @@ def top_to_csv(path_to_top_log: str):
         # Also process the last element.
         if len(row) > 0:
             rows.append(row)
-
-    # Drop the first measurement, it is inaccurate as top needs a delay to properly calculate it.
-    rows.pop(0)
 
     # Create CSV
     # CSV header goes first
