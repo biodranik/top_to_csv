@@ -1,9 +1,12 @@
 #!/usr/bin/env python3
 
+import re
 import sys
 
 CSV_DELIMITER: str = ","
 ZERO_FILLER: str = "0"
+
+TOP_HEADER_RE = re.compile(r"^\s*PID\s")
 
 
 def top_to_csv(path_to_top_log: str):
@@ -14,7 +17,7 @@ def top_to_csv(path_to_top_log: str):
 
         for line in file:
             #     PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
-            if line.startswith("    PID") or line.startswith("\n"):
+            if line.startswith("\n") or TOP_HEADER_RE.search(line):
                 if len(row) > 0:
                     rows.append(row)
                 row = {}
