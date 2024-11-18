@@ -1,0 +1,663 @@
+top - 07:19:08 up 9 days,  5:51,  3 users,  load average: 0.05, 0.06, 0.01
+Tasks: 453 total,   1 running, 452 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.3 us,  0.3 sy,  0.0 ni, 99.4 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 128716.8 total,   2029.4 free,   3196.8 used, 124717.6 buff/cache     
+MiB Swap: 135162.0 total, 135053.8 free,    108.2 used. 125520.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 188744 www-data  20   0   93180  38908   7168 S  10.0   0.0   6:00.91 nginx: worker process
+ 191384 root      20   0       0      0      0 I  10.0   0.0   0:00.13 [kworker/u65:9-events_power_efficient]
+ 191533 alex      20   0   11904   5376   3328 R  10.0   0.0   0:00.01 top -d 1 -b -i -c -w 512 -n 60
+
+top - 07:19:09 up 9 days,  5:51,  3 users,  load average: 0.05, 0.06, 0.01
+Tasks: 453 total,   1 running, 452 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.1 sy,  0.0 ni, 99.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 128716.8 total,   2029.4 free,   3196.8 used, 124717.6 buff/cache     
+MiB Swap: 135162.0 total, 135053.8 free,    108.2 used. 125520.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 188744 www-data  20   0   93180  38908   7168 S   4.0   0.0   6:00.95 nginx: worker process
+   1523 grafana+  20   0 4734196  71396  17112 S   2.0   0.1 213:53.51 /usr/bin/grafana-agent --config.file /etc/grafana-agent.yaml -server.http.address=127.0.0.1:9090 -server.grpc.address=127.0.0.1:9091
+
+top - 07:19:10 up 9 days,  5:51,  3 users,  load average: 0.05, 0.06, 0.01
+Tasks: 453 total,   1 running, 452 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.2 us,  0.1 sy,  0.0 ni, 99.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 128716.8 total,   2029.4 free,   3196.8 used, 124717.6 buff/cache     
+MiB Swap: 135162.0 total, 135053.8 free,    108.2 used. 125520.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 188744 www-data  20   0   93180  38908   7168 S   5.9   0.0   6:01.01 nginx: worker process
+   1406 root      20   0 2761840  12800   4096 S   1.0   0.0   5:27.86 /usr/bin/containerd
+   1523 grafana+  20   0 4734196  71396  17112 S   1.0   0.1 213:53.52 /usr/bin/grafana-agent --config.file /etc/grafana-agent.yaml -server.http.address=127.0.0.1:9090 -server.grpc.address=127.0.0.1:9091
+ 191339 root      20   0       0      0      0 I   1.0   0.0   0:00.09 [kworker/u66:2-btrfs-endio]
+ 191341 root      20   0       0      0      0 I   1.0   0.0   0:00.05 [kworker/u66:4-btrfs-endio]
+ 191533 alex      20   0   11904   5632   3584 R   1.0   0.0   0:00.02 top -d 1 -b -i -c -w 512 -n 60
+
+top - 07:19:11 up 9 days,  5:52,  3 users,  load average: 0.05, 0.06, 0.01
+Tasks: 453 total,   1 running, 452 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.1 sy,  0.0 ni, 99.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 128716.8 total,   1976.7 free,   3208.2 used, 124759.0 buff/cache     
+MiB Swap: 135162.0 total, 135053.8 free,    108.2 used. 125508.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 188744 www-data  20   0   93180  38908   7168 S   5.0   0.0   6:01.06 nginx: worker process
+   1523 grafana+  20   0 4734196  71396  17112 S   1.0   0.1 213:53.53 /usr/bin/grafana-agent --config.file /etc/grafana-agent.yaml -server.http.address=127.0.0.1:9090 -server.grpc.address=127.0.0.1:9091
+ 191533 alex      20   0   11904   5632   3584 R   1.0   0.0   0:00.03 top -d 1 -b -i -c -w 512 -n 60
+
+top - 07:19:12 up 9 days,  5:52,  3 users,  load average: 0.05, 0.06, 0.01
+Tasks: 453 total,   1 running, 452 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.1 sy,  0.0 ni, 99.7 id,  0.0 wa,  0.0 hi,  0.1 si,  0.0 st 
+MiB Mem : 128716.8 total,   1976.7 free,   3208.2 used, 124759.0 buff/cache     
+MiB Swap: 135162.0 total, 135053.8 free,    108.2 used. 125508.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 188744 www-data  20   0   93180  38908   7168 S   6.0   0.0   6:01.12 nginx: worker process
+   1523 grafana+  20   0 4734196  71396  17112 S   1.0   0.1 213:53.54 /usr/bin/grafana-agent --config.file /etc/grafana-agent.yaml -server.http.address=127.0.0.1:9090 -server.grpc.address=127.0.0.1:9091
+ 191533 alex      20   0   11904   5632   3584 R   1.0   0.0   0:00.04 top -d 1 -b -i -c -w 512 -n 60
+
+top - 07:19:13 up 9 days,  5:52,  3 users,  load average: 0.05, 0.06, 0.01
+Tasks: 453 total,   1 running, 452 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.1 sy,  0.0 ni, 99.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 128716.8 total,   1976.7 free,   3208.2 used, 124759.0 buff/cache     
+MiB Swap: 135162.0 total, 135053.8 free,    108.2 used. 125508.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 188744 www-data  20   0   93180  38908   7168 S   3.0   0.0   6:01.15 nginx: worker process
+   1523 grafana+  20   0 4734196  71396  17112 S   2.0   0.1 213:53.56 /usr/bin/grafana-agent --config.file /etc/grafana-agent.yaml -server.http.address=127.0.0.1:9090 -server.grpc.address=127.0.0.1:9091
+
+top - 07:19:14 up 9 days,  5:52,  3 users,  load average: 0.05, 0.06, 0.01
+Tasks: 453 total,   2 running, 451 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.1 sy,  0.0 ni, 99.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 128716.8 total,   1961.1 free,   3203.2 used, 124779.7 buff/cache     
+MiB Swap: 135162.0 total, 135053.8 free,    108.2 used. 125513.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 188744 www-data  20   0   93180  38908   7168 S   5.0   0.0   6:01.20 nginx: worker process
+   1523 grafana+  20   0 4734196  71396  17112 S   1.0   0.1 213:53.57 /usr/bin/grafana-agent --config.file /etc/grafana-agent.yaml -server.http.address=127.0.0.1:9090 -server.grpc.address=127.0.0.1:9091
+ 191533 alex      20   0   11904   5632   3584 R   1.0   0.0   0:00.05 top -d 1 -b -i -c -w 512 -n 60
+
+top - 07:19:15 up 9 days,  5:52,  3 users,  load average: 0.05, 0.06, 0.01
+Tasks: 453 total,   1 running, 452 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.3 sy,  0.0 ni, 99.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 128716.8 total,   1961.1 free,   3203.2 used, 124779.7 buff/cache     
+MiB Swap: 135162.0 total, 135053.8 free,    108.2 used. 125513.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+    236 root      20   0       0      0      0 S   5.0   0.0 132:45.25 [kswapd0]
+ 188744 www-data  20   0   93180  38908   7168 S   5.0   0.0   6:01.25 nginx: worker process
+   1523 grafana+  20   0 4734196  71396  17112 S   1.0   0.1 213:53.58 /usr/bin/grafana-agent --config.file /etc/grafana-agent.yaml -server.http.address=127.0.0.1:9090 -server.grpc.address=127.0.0.1:9091
+
+top - 07:19:16 up 9 days,  5:52,  3 users,  load average: 0.05, 0.06, 0.01
+Tasks: 453 total,   1 running, 452 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.1 sy,  0.0 ni, 99.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 128716.8 total,   1961.1 free,   3203.2 used, 124779.7 buff/cache     
+MiB Swap: 135162.0 total, 135053.8 free,    108.2 used. 125513.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 188744 www-data  20   0   93180  38908   7168 S   5.0   0.0   6:01.30 nginx: worker process
+   1523 grafana+  20   0 4734196  71396  17112 S   1.0   0.1 213:53.59 /usr/bin/grafana-agent --config.file /etc/grafana-agent.yaml -server.http.address=127.0.0.1:9090 -server.grpc.address=127.0.0.1:9091
+ 191533 alex      20   0   11904   5632   3584 R   1.0   0.0   0:00.06 top -d 1 -b -i -c -w 512 -n 60
+
+top - 07:19:17 up 9 days,  5:52,  3 users,  load average: 0.05, 0.06, 0.01
+Tasks: 453 total,   1 running, 452 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.2 us,  0.2 sy,  0.0 ni, 99.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 128716.8 total,   2224.6 free,   3204.0 used, 124515.2 buff/cache     
+MiB Swap: 135162.0 total, 135053.8 free,    108.2 used. 125512.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 188744 www-data  20   0   93180  38908   7168 S   4.0   0.0   6:01.34 nginx: worker process
+   1523 grafana+  20   0 4734196  71396  17112 S   1.0   0.1 213:53.60 /usr/bin/grafana-agent --config.file /etc/grafana-agent.yaml -server.http.address=127.0.0.1:9090 -server.grpc.address=127.0.0.1:9091
+ 191337 root      20   0       0      0      0 I   1.0   0.0   0:00.09 [kworker/u66:0-btrfs-endio]
+ 191533 alex      20   0   11904   5632   3584 R   1.0   0.0   0:00.07 top -d 1 -b -i -c -w 512 -n 60
+
+top - 07:19:18 up 9 days,  5:52,  3 users,  load average: 0.05, 0.06, 0.01
+Tasks: 453 total,   1 running, 452 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.1 sy,  0.0 ni, 99.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 128716.8 total,   2224.6 free,   3204.0 used, 124515.2 buff/cache     
+MiB Swap: 135162.0 total, 135053.8 free,    108.2 used. 125512.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 188744 www-data  20   0   93180  38908   7168 S   5.9   0.0   6:01.40 nginx: worker process
+   1523 grafana+  20   0 4734196  71396  17112 S   2.0   0.1 213:53.62 /usr/bin/grafana-agent --config.file /etc/grafana-agent.yaml -server.http.address=127.0.0.1:9090 -server.grpc.address=127.0.0.1:9091
+ 191529 root      20   0       0      0      0 I   1.0   0.0   0:00.01 [kworker/u66:3-btrfs-endio]
+ 191533 alex      20   0   11904   5632   3584 R   1.0   0.0   0:00.08 top -d 1 -b -i -c -w 512 -n 60
+
+top - 07:19:19 up 9 days,  5:52,  3 users,  load average: 0.05, 0.06, 0.01
+Tasks: 453 total,   1 running, 452 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.1 sy,  0.0 ni, 99.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 128716.8 total,   2224.6 free,   3204.0 used, 124515.2 buff/cache     
+MiB Swap: 135162.0 total, 135053.8 free,    108.2 used. 125512.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 188744 www-data  20   0   93180  38908   7168 S   5.0   0.0   6:01.45 nginx: worker process
+
+top - 07:19:20 up 9 days,  5:52,  3 users,  load average: 0.05, 0.06, 0.01
+Tasks: 453 total,   1 running, 452 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.1 sy,  0.0 ni, 99.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 128716.8 total,   2172.6 free,   3200.8 used, 124570.6 buff/cache     
+MiB Swap: 135162.0 total, 135053.8 free,    108.2 used. 125516.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 188744 www-data  20   0   93180  38908   7168 S   3.0   0.0   6:01.48 nginx: worker process
+   1523 grafana+  20   0 4734196  71396  17112 S   1.0   0.1 213:53.63 /usr/bin/grafana-agent --config.file /etc/grafana-agent.yaml -server.http.address=127.0.0.1:9090 -server.grpc.address=127.0.0.1:9091
+ 191533 alex      20   0   11904   5632   3584 R   1.0   0.0   0:00.09 top -d 1 -b -i -c -w 512 -n 60
+
+top - 07:19:21 up 9 days,  5:52,  3 users,  load average: 0.04, 0.05, 0.01
+Tasks: 453 total,   1 running, 452 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.1 sy,  0.0 ni, 99.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 128716.8 total,   2172.6 free,   3200.8 used, 124570.6 buff/cache     
+MiB Swap: 135162.0 total, 135053.8 free,    108.2 used. 125516.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 188744 www-data  20   0   93180  38908   7168 S   5.0   0.0   6:01.53 nginx: worker process
+   1523 grafana+  20   0 4734196  71396  17112 S   1.0   0.1 213:53.64 /usr/bin/grafana-agent --config.file /etc/grafana-agent.yaml -server.http.address=127.0.0.1:9090 -server.grpc.address=127.0.0.1:9091
+
+top - 07:19:22 up 9 days,  5:52,  3 users,  load average: 0.04, 0.05, 0.01
+Tasks: 453 total,   1 running, 452 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.1 sy,  0.0 ni, 99.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 128716.8 total,   2172.6 free,   3200.8 used, 124570.6 buff/cache     
+MiB Swap: 135162.0 total, 135053.8 free,    108.2 used. 125516.1 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 188744 www-data  20   0   93180  38908   7168 S   4.0   0.0   6:01.57 nginx: worker process
+ 191533 alex      20   0   11904   5632   3584 R   2.0   0.0   0:00.11 top -d 1 -b -i -c -w 512 -n 60
+   1522 root      20   0 3023212  23752   8448 S   1.0   0.0   1:02.06 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+   1523 grafana+  20   0 4734196  71396  17112 S   1.0   0.1 213:53.65 /usr/bin/grafana-agent --config.file /etc/grafana-agent.yaml -server.http.address=127.0.0.1:9090 -server.grpc.address=127.0.0.1:9091
+   1946 root      20   0 1237912   5164   2048 S   1.0   0.0   1:56.35 /usr/bin/containerd-shim-runc-v2 -namespace moby -id c16f08f287059faf93578392ad24e4cf7641d79ff823c5049516de272cecf567 -address /run/containerd/containerd.sock
+ 191531 root      20   0       0      0      0 I   1.0   0.0   0:00.01 [kworker/u66:5-btrfs-endio]
+
+top - 07:19:23 up 9 days,  5:52,  3 users,  load average: 0.04, 0.05, 0.01
+Tasks: 453 total,   1 running, 452 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.3 us,  0.1 sy,  0.0 ni, 99.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 128716.8 total,   2142.5 free,   3199.6 used, 124601.8 buff/cache     
+MiB Swap: 135162.0 total, 135053.8 free,    108.2 used. 125517.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   1523 grafana+  20   0 4734196  71396  17112 S   5.9   0.1 213:53.71 /usr/bin/grafana-agent --config.file /etc/grafana-agent.yaml -server.http.address=127.0.0.1:9090 -server.grpc.address=127.0.0.1:9091
+   2085 root      20   0 1019300  36124   8988 S   5.0   0.0   6:19.06 /opt/outline-server/bin/prometheus --config.file /opt/outline/persisted-state/prometheus/config.yml --web.enable-admin-api --storage.tsdb.retention.time 31d --storage.tsdb.path /opt/outline/persisted-state/prometheus/data --web.listen-address 127.0.0.1:9092 --log.level info
+ 188744 www-data  20   0   93180  38908   7168 S   5.0   0.0   6:01.62 nginx: worker process
+
+top - 07:19:24 up 9 days,  5:52,  3 users,  load average: 0.04, 0.05, 0.01
+Tasks: 453 total,   1 running, 452 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.1 sy,  0.0 ni, 99.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 128716.8 total,   2142.5 free,   3199.6 used, 124601.8 buff/cache     
+MiB Swap: 135162.0 total, 135053.8 free,    108.2 used. 125517.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 188744 www-data  20   0   93180  38908   7168 S   3.0   0.0   6:01.65 nginx: worker process
+
+top - 07:19:25 up 9 days,  5:52,  3 users,  load average: 0.04, 0.05, 0.01
+Tasks: 452 total,   1 running, 451 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.1 sy,  0.0 ni, 99.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 128716.8 total,   2142.5 free,   3199.6 used, 124601.8 buff/cache     
+MiB Swap: 135162.0 total, 135053.8 free,    108.2 used. 125517.2 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 188744 www-data  20   0   93180  38908   7168 S   4.0   0.0   6:01.69 nginx: worker process
+   1523 grafana+  20   0 4734196  71396  17112 S   2.0   0.1 213:53.73 /usr/bin/grafana-agent --config.file /etc/grafana-agent.yaml -server.http.address=127.0.0.1:9090 -server.grpc.address=127.0.0.1:9091
+   9151 root      20   0       0      0      0 I   1.0   0.0   0:06.23 [kworker/27:2-mm_percpu_wq]
+ 191337 root      20   0       0      0      0 I   1.0   0.0   0:00.10 [kworker/u66:0-btrfs-endio]
+ 191533 alex      20   0   11904   5632   3584 R   1.0   0.0   0:00.12 top -d 1 -b -i -c -w 512 -n 60
+
+top - 07:19:26 up 9 days,  5:52,  3 users,  load average: 0.04, 0.05, 0.01
+Tasks: 452 total,   1 running, 451 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.1 sy,  0.0 ni, 99.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 128716.8 total,   2110.7 free,   3204.4 used, 124628.7 buff/cache     
+MiB Swap: 135162.0 total, 135053.8 free,    108.2 used. 125512.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 188744 www-data  20   0   93180  38908   7168 S   4.0   0.0   6:01.73 nginx: worker process
+   1523 grafana+  20   0 4734196  71396  17112 S   2.0   0.1 213:53.75 /usr/bin/grafana-agent --config.file /etc/grafana-agent.yaml -server.http.address=127.0.0.1:9090 -server.grpc.address=127.0.0.1:9091
+ 191533 alex      20   0   11904   5632   3584 R   1.0   0.0   0:00.13 top -d 1 -b -i -c -w 512 -n 60
+
+top - 07:19:27 up 9 days,  5:52,  3 users,  load average: 0.04, 0.05, 0.01
+Tasks: 452 total,   1 running, 451 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.1 sy,  0.0 ni, 99.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 128716.8 total,   2110.7 free,   3204.4 used, 124628.7 buff/cache     
+MiB Swap: 135162.0 total, 135053.8 free,    108.2 used. 125512.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 188744 www-data  20   0   93180  38908   7168 S   4.0   0.0   6:01.77 nginx: worker process
+ 186812 root      20   0       0      0      0 I   1.0   0.0   0:00.46 [kworker/21:0-events]
+ 191533 alex      20   0   11904   5632   3584 R   1.0   0.0   0:00.14 top -d 1 -b -i -c -w 512 -n 60
+
+top - 07:19:28 up 9 days,  5:52,  3 users,  load average: 0.04, 0.05, 0.01
+Tasks: 452 total,   1 running, 451 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.1 sy,  0.0 ni, 99.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 128716.8 total,   2110.7 free,   3204.4 used, 124628.7 buff/cache     
+MiB Swap: 135162.0 total, 135053.8 free,    108.2 used. 125512.4 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 188744 www-data  20   0   93180  38908   7168 S   5.0   0.0   6:01.82 nginx: worker process
+   1523 grafana+  20   0 4734196  71396  17112 S   2.0   0.1 213:53.77 /usr/bin/grafana-agent --config.file /etc/grafana-agent.yaml -server.http.address=127.0.0.1:9090 -server.grpc.address=127.0.0.1:9091
+ 188747 www-data  20   0   89932  36764   7168 S   1.0   0.0   0:08.68 nginx: worker process
+
+top - 07:19:29 up 9 days,  5:52,  3 users,  load average: 0.04, 0.05, 0.01
+Tasks: 452 total,   1 running, 451 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.1 sy,  0.0 ni, 99.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 128716.8 total,   2082.0 free,   3201.9 used, 124659.9 buff/cache     
+MiB Swap: 135162.0 total, 135053.8 free,    108.2 used. 125514.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 188744 www-data  20   0   93180  38908   7168 S   5.0   0.0   6:01.87 nginx: worker process
+   1523 grafana+  20   0 4734196  71396  17112 S   1.0   0.1 213:53.78 /usr/bin/grafana-agent --config.file /etc/grafana-agent.yaml -server.http.address=127.0.0.1:9090 -server.grpc.address=127.0.0.1:9091
+ 191533 alex      20   0   11904   5632   3584 R   1.0   0.0   0:00.15 top -d 1 -b -i -c -w 512 -n 60
+
+top - 07:19:30 up 9 days,  5:52,  3 users,  load average: 0.04, 0.05, 0.01
+Tasks: 452 total,   1 running, 451 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.1 sy,  0.0 ni, 99.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 128716.8 total,   2082.0 free,   3201.9 used, 124659.9 buff/cache     
+MiB Swap: 135162.0 total, 135053.8 free,    108.2 used. 125514.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 188744 www-data  20   0   93180  38908   7168 S   4.0   0.0   6:01.91 nginx: worker process
+   1523 grafana+  20   0 4734196  71396  17112 S   2.0   0.1 213:53.80 /usr/bin/grafana-agent --config.file /etc/grafana-agent.yaml -server.http.address=127.0.0.1:9090 -server.grpc.address=127.0.0.1:9091
+ 191529 root      20   0       0      0      0 I   1.0   0.0   0:00.02 [kworker/u66:3-btrfs-endio]
+ 191533 alex      20   0   11904   5632   3584 R   1.0   0.0   0:00.16 top -d 1 -b -i -c -w 512 -n 60
+
+top - 07:19:31 up 9 days,  5:52,  3 users,  load average: 0.03, 0.05, 0.01
+Tasks: 452 total,   1 running, 451 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.1 sy,  0.0 ni, 99.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 128716.8 total,   2082.0 free,   3201.9 used, 124659.9 buff/cache     
+MiB Swap: 135162.0 total, 135053.8 free,    108.2 used. 125514.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 188744 www-data  20   0   93180  38908   7168 S   5.0   0.0   6:01.96 nginx: worker process
+ 191533 alex      20   0   11904   5632   3584 R   1.0   0.0   0:00.17 top -d 1 -b -i -c -w 512 -n 60
+
+top - 07:19:32 up 9 days,  5:52,  3 users,  load average: 0.03, 0.05, 0.01
+Tasks: 452 total,   1 running, 451 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.1 sy,  0.0 ni, 99.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 128716.8 total,   2039.0 free,   3208.5 used, 124696.4 buff/cache     
+MiB Swap: 135162.0 total, 135053.8 free,    108.2 used. 125508.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   1523 grafana+  20   0 4734196  71396  17112 S   3.0   0.1 213:53.83 /usr/bin/grafana-agent --config.file /etc/grafana-agent.yaml -server.http.address=127.0.0.1:9090 -server.grpc.address=127.0.0.1:9091
+ 188744 www-data  20   0   93180  38908   7168 S   3.0   0.0   6:01.99 nginx: worker process
+
+top - 07:19:33 up 9 days,  5:52,  3 users,  load average: 0.03, 0.05, 0.01
+Tasks: 452 total,   1 running, 451 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.1 sy,  0.0 ni, 99.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 128716.8 total,   2039.0 free,   3208.5 used, 124696.4 buff/cache     
+MiB Swap: 135162.0 total, 135053.8 free,    108.2 used. 125508.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 188744 www-data  20   0   93180  38908   7168 S   4.0   0.0   6:02.03 nginx: worker process
+   1523 grafana+  20   0 4734196  71396  17112 S   1.0   0.1 213:53.84 /usr/bin/grafana-agent --config.file /etc/grafana-agent.yaml -server.http.address=127.0.0.1:9090 -server.grpc.address=127.0.0.1:9091
+ 191531 root      20   0       0      0      0 I   1.0   0.0   0:00.02 [kworker/u66:5-btrfs-endio]
+
+top - 07:19:34 up 9 days,  5:52,  3 users,  load average: 0.03, 0.05, 0.01
+Tasks: 452 total,   1 running, 451 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.1 sy,  0.0 ni, 99.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 128716.8 total,   2039.0 free,   3208.5 used, 124696.4 buff/cache     
+MiB Swap: 135162.0 total, 135053.8 free,    108.2 used. 125508.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 188744 www-data  20   0   93180  38908   7168 S   5.0   0.0   6:02.08 nginx: worker process
+ 191533 alex      20   0   11904   5632   3584 R   1.0   0.0   0:00.18 top -d 1 -b -i -c -w 512 -n 60
+
+top - 07:19:35 up 9 days,  5:52,  3 users,  load average: 0.03, 0.05, 0.01
+Tasks: 452 total,   1 running, 451 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.1 sy,  0.0 ni, 99.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 128716.8 total,   2009.3 free,   3205.8 used, 124728.8 buff/cache     
+MiB Swap: 135162.0 total, 135053.8 free,    108.2 used. 125511.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 188744 www-data  20   0   93180  38908   7168 S   4.0   0.0   6:02.12 nginx: worker process
+   1523 grafana+  20   0 4734196  71396  17112 S   2.0   0.1 213:53.86 /usr/bin/grafana-agent --config.file /etc/grafana-agent.yaml -server.http.address=127.0.0.1:9090 -server.grpc.address=127.0.0.1:9091
+   1406 root      20   0 2761840  12800   4096 S   1.0   0.0   5:27.87 /usr/bin/containerd
+ 191533 alex      20   0   11904   5632   3584 R   1.0   0.0   0:00.19 top -d 1 -b -i -c -w 512 -n 60
+
+top - 07:19:36 up 9 days,  5:52,  3 users,  load average: 0.03, 0.05, 0.01
+Tasks: 452 total,   1 running, 451 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.1 sy,  0.0 ni, 99.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 128716.8 total,   2009.3 free,   3205.8 used, 124728.8 buff/cache     
+MiB Swap: 135162.0 total, 135053.8 free,    108.2 used. 125511.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 188744 www-data  20   0   93180  38908   7168 S   4.0   0.0   6:02.16 nginx: worker process
+   1523 grafana+  20   0 4734196  71396  17112 S   2.0   0.1 213:53.88 /usr/bin/grafana-agent --config.file /etc/grafana-agent.yaml -server.http.address=127.0.0.1:9090 -server.grpc.address=127.0.0.1:9091
+ 191533 alex      20   0   11904   5632   3584 R   1.0   0.0   0:00.20 top -d 1 -b -i -c -w 512 -n 60
+
+top - 07:19:37 up 9 days,  5:52,  3 users,  load average: 0.03, 0.05, 0.01
+Tasks: 452 total,   1 running, 451 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.1 sy,  0.0 ni, 99.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 128716.8 total,   2009.3 free,   3205.8 used, 124728.8 buff/cache     
+MiB Swap: 135162.0 total, 135053.8 free,    108.2 used. 125511.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 188744 www-data  20   0   93180  38908   7168 S   3.0   0.0   6:02.19 nginx: worker process
+ 191533 alex      20   0   11904   5632   3584 R   1.0   0.0   0:00.21 top -d 1 -b -i -c -w 512 -n 60
+
+top - 07:19:38 up 9 days,  5:52,  3 users,  load average: 0.03, 0.05, 0.01
+Tasks: 452 total,   1 running, 451 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.2 us,  0.1 sy,  0.0 ni, 99.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 128716.8 total,   2000.3 free,   3198.3 used, 124745.3 buff/cache     
+MiB Swap: 135162.0 total, 135053.8 free,    108.2 used. 125518.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   1523 grafana+  20   0 4734196  73700  17112 S   8.9   0.1 213:53.97 /usr/bin/grafana-agent --config.file /etc/grafana-agent.yaml -server.http.address=127.0.0.1:9090 -server.grpc.address=127.0.0.1:9091
+ 188744 www-data  20   0   93180  38908   7168 S   3.0   0.0   6:02.22 nginx: worker process
+   1210 message+  20   0   10180   6656   4352 S   2.0   0.0   1:59.20 @dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+ 191529 root      20   0       0      0      0 I   1.0   0.0   0:00.03 [kworker/u66:3-btrfs-endio]
+
+top - 07:19:39 up 9 days,  5:52,  3 users,  load average: 0.03, 0.05, 0.01
+Tasks: 452 total,   1 running, 451 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.1 sy,  0.0 ni, 99.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 128716.8 total,   2000.3 free,   3198.3 used, 124745.3 buff/cache     
+MiB Swap: 135162.0 total, 135053.8 free,    108.2 used. 125518.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 188744 www-data  20   0   93180  38908   7168 S   3.0   0.0   6:02.25 nginx: worker process
+   1523 grafana+  20   0 4734196  73700  17112 S   2.0   0.1 213:53.99 /usr/bin/grafana-agent --config.file /etc/grafana-agent.yaml -server.http.address=127.0.0.1:9090 -server.grpc.address=127.0.0.1:9091
+ 188747 www-data  20   0   89932  36764   7168 S   1.0   0.0   0:08.69 nginx: worker process
+ 191533 alex      20   0   11904   5632   3584 R   1.0   0.0   0:00.22 top -d 1 -b -i -c -w 512 -n 60
+
+top - 07:19:40 up 9 days,  5:52,  3 users,  load average: 0.03, 0.05, 0.01
+Tasks: 452 total,   1 running, 451 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.1 sy,  0.0 ni, 99.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 128716.8 total,   2000.3 free,   3198.3 used, 124745.3 buff/cache     
+MiB Swap: 135162.0 total, 135053.8 free,    108.2 used. 125518.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 188744 www-data  20   0   93180  38908   7168 S   4.0   0.0   6:02.29 nginx: worker process
+ 188747 www-data  20   0   89932  36764   7168 S   1.0   0.0   0:08.70 nginx: worker process
+ 191533 alex      20   0   11904   5632   3584 R   1.0   0.0   0:00.23 top -d 1 -b -i -c -w 512 -n 60
+
+top - 07:19:41 up 9 days,  5:52,  3 users,  load average: 0.11, 0.07, 0.01
+Tasks: 452 total,   1 running, 451 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.1 sy,  0.0 ni, 99.8 id,  0.0 wa,  0.0 hi,  0.1 si,  0.0 st 
+MiB Mem : 128716.8 total,   1980.9 free,   3198.1 used, 124764.9 buff/cache     
+MiB Swap: 135162.0 total, 135053.8 free,    108.2 used. 125518.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 188744 www-data  20   0   93180  38908   7168 S   3.0   0.0   6:02.32 nginx: worker process
+   1523 grafana+  20   0 4734196  73700  17112 S   2.0   0.1 213:54.01 /usr/bin/grafana-agent --config.file /etc/grafana-agent.yaml -server.http.address=127.0.0.1:9090 -server.grpc.address=127.0.0.1:9091
+ 191339 root      20   0       0      0      0 I   1.0   0.0   0:00.10 [kworker/u66:2-btrfs-endio]
+
+top - 07:19:42 up 9 days,  5:52,  3 users,  load average: 0.11, 0.07, 0.01
+Tasks: 452 total,   1 running, 451 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.1 sy,  0.0 ni, 99.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 128716.8 total,   1980.9 free,   3198.1 used, 124764.9 buff/cache     
+MiB Swap: 135162.0 total, 135053.8 free,    108.2 used. 125518.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 188744 www-data  20   0   93180  38908   7168 S   4.0   0.0   6:02.36 nginx: worker process
+   1523 grafana+  20   0 4734196  73700  17112 S   1.0   0.1 213:54.02 /usr/bin/grafana-agent --config.file /etc/grafana-agent.yaml -server.http.address=127.0.0.1:9090 -server.grpc.address=127.0.0.1:9091
+ 191533 alex      20   0   11904   5632   3584 R   1.0   0.0   0:00.24 top -d 1 -b -i -c -w 512 -n 60
+
+top - 07:19:43 up 9 days,  5:52,  3 users,  load average: 0.11, 0.07, 0.01
+Tasks: 452 total,   1 running, 451 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.0 sy,  0.0 ni, 99.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 128716.8 total,   1980.9 free,   3198.1 used, 124764.9 buff/cache     
+MiB Swap: 135162.0 total, 135053.8 free,    108.2 used. 125518.7 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 188744 www-data  20   0   93180  38908   7168 S   3.0   0.0   6:02.39 nginx: worker process
+   1523 grafana+  20   0 4734196  73700  17112 S   2.0   0.1 213:54.04 /usr/bin/grafana-agent --config.file /etc/grafana-agent.yaml -server.http.address=127.0.0.1:9090 -server.grpc.address=127.0.0.1:9091
+ 191533 alex      20   0   11904   5632   3584 R   1.0   0.0   0:00.25 top -d 1 -b -i -c -w 512 -n 60
+
+top - 07:19:44 up 9 days,  5:52,  3 users,  load average: 0.11, 0.07, 0.01
+Tasks: 452 total,   1 running, 451 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.1 sy,  0.0 ni, 99.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 128716.8 total,   1965.2 free,   3199.3 used, 124779.4 buff/cache     
+MiB Swap: 135162.0 total, 135053.8 free,    108.2 used. 125517.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 188744 www-data  20   0   93180  38908   7168 S   3.0   0.0   6:02.42 nginx: worker process
+ 191533 alex      20   0   11904   5632   3584 R   1.0   0.0   0:00.26 top -d 1 -b -i -c -w 512 -n 60
+
+top - 07:19:45 up 9 days,  5:52,  3 users,  load average: 0.11, 0.07, 0.01
+Tasks: 452 total,   1 running, 451 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.0 sy,  0.0 ni, 99.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 128716.8 total,   1965.2 free,   3199.3 used, 124779.4 buff/cache     
+MiB Swap: 135162.0 total, 135053.8 free,    108.2 used. 125517.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 188744 www-data  20   0   93180  38908   7168 S   4.0   0.0   6:02.46 nginx: worker process
+   1523 grafana+  20   0 4734196  73700  17112 S   2.0   0.1 213:54.06 /usr/bin/grafana-agent --config.file /etc/grafana-agent.yaml -server.http.address=127.0.0.1:9090 -server.grpc.address=127.0.0.1:9091
+
+top - 07:19:46 up 9 days,  5:52,  3 users,  load average: 0.10, 0.07, 0.01
+Tasks: 454 total,   1 running, 453 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.0 us,  0.1 sy,  0.0 ni, 99.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 128716.8 total,   1965.2 free,   3199.3 used, 124779.4 buff/cache     
+MiB Swap: 135162.0 total, 135053.8 free,    108.2 used. 125517.5 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 188744 www-data  20   0   93180  38908   7168 S   3.0   0.0   6:02.49 nginx: worker process
+   1523 grafana+  20   0 4734196  73956  17112 S   1.0   0.1 213:54.07 /usr/bin/grafana-agent --config.file /etc/grafana-agent.yaml -server.http.address=127.0.0.1:9090 -server.grpc.address=127.0.0.1:9091
+   2074 root      20   0  336656  34720  15360 S   1.0   0.0   1:11.69 node app/main.js
+ 191533 alex      20   0   11904   5632   3584 R   1.0   0.0   0:00.27 top -d 1 -b -i -c -w 512 -n 60
+
+top - 07:19:47 up 9 days,  5:52,  3 users,  load average: 0.10, 0.07, 0.01
+Tasks: 454 total,   1 running, 453 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.1 sy,  0.0 ni, 99.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 128716.8 total,   1957.1 free,   3198.9 used, 124787.8 buff/cache     
+MiB Swap: 135162.0 total, 135053.8 free,    108.2 used. 125517.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 188744 www-data  20   0   93180  38908   7168 S   3.0   0.0   6:02.52 nginx: worker process
+   1523 grafana+  20   0 4734196  73956  17112 S   1.0   0.1 213:54.08 /usr/bin/grafana-agent --config.file /etc/grafana-agent.yaml -server.http.address=127.0.0.1:9090 -server.grpc.address=127.0.0.1:9091
+
+top - 07:19:48 up 9 days,  5:52,  3 users,  load average: 0.10, 0.07, 0.01
+Tasks: 452 total,   1 running, 451 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.1 sy,  0.0 ni, 99.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 128716.8 total,   1957.1 free,   3198.9 used, 124787.8 buff/cache     
+MiB Swap: 135162.0 total, 135053.8 free,    108.2 used. 125517.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   1523 grafana+  20   0 4734196  73956  17112 S   2.0   0.1 213:54.10 /usr/bin/grafana-agent --config.file /etc/grafana-agent.yaml -server.http.address=127.0.0.1:9090 -server.grpc.address=127.0.0.1:9091
+ 188744 www-data  20   0   93180  38908   7168 S   2.0   0.0   6:02.54 nginx: worker process
+  19239 root      20   0       0      0      0 I   1.0   0.0   0:05.97 [kworker/22:0-mm_percpu_wq]
+ 191533 alex      20   0   11904   5632   3584 R   1.0   0.0   0:00.28 top -d 1 -b -i -c -w 512 -n 60
+
+top - 07:19:49 up 9 days,  5:52,  3 users,  load average: 0.10, 0.07, 0.01
+Tasks: 452 total,   1 running, 451 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.2 sy,  0.0 ni, 99.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 128716.8 total,   1957.1 free,   3198.9 used, 124787.8 buff/cache     
+MiB Swap: 135162.0 total, 135053.8 free,    108.2 used. 125517.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 188744 www-data  20   0   93180  38908   7168 S   4.0   0.0   6:02.58 nginx: worker process
+    236 root      20   0       0      0      0 S   3.0   0.0 132:45.28 [kswapd0]
+   1523 grafana+  20   0 4734196  73956  17112 S   1.0   0.1 213:54.11 /usr/bin/grafana-agent --config.file /etc/grafana-agent.yaml -server.http.address=127.0.0.1:9090 -server.grpc.address=127.0.0.1:9091
+ 170547 root      20   0       0      0      0 I   1.0   0.0   0:02.72 [kworker/19:2-mm_percpu_wq]
+
+top - 07:19:50 up 9 days,  5:52,  3 users,  load average: 0.10, 0.07, 0.01
+Tasks: 452 total,   1 running, 451 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.1 sy,  0.0 ni, 99.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 128716.8 total,   2267.5 free,   3197.0 used, 124479.4 buff/cache     
+MiB Swap: 135162.0 total, 135053.8 free,    108.2 used. 125519.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 188744 www-data  20   0   93180  38908   7168 S   2.0   0.0   6:02.60 nginx: worker process
+   1523 grafana+  20   0 4734196  73956  17112 S   1.0   0.1 213:54.12 /usr/bin/grafana-agent --config.file /etc/grafana-agent.yaml -server.http.address=127.0.0.1:9090 -server.grpc.address=127.0.0.1:9091
+ 191533 alex      20   0   11904   5632   3584 R   1.0   0.0   0:00.29 top -d 1 -b -i -c -w 512 -n 60
+
+top - 07:19:51 up 9 days,  5:52,  3 users,  load average: 0.09, 0.06, 0.01
+Tasks: 452 total,   1 running, 451 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.1 sy,  0.0 ni, 99.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 128716.8 total,   2267.5 free,   3197.0 used, 124479.4 buff/cache     
+MiB Swap: 135162.0 total, 135053.8 free,    108.2 used. 125519.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 188744 www-data  20   0   93180  38908   7168 S   3.0   0.0   6:02.63 nginx: worker process
+   1523 grafana+  20   0 4734196  73956  17112 S   2.0   0.1 213:54.14 /usr/bin/grafana-agent --config.file /etc/grafana-agent.yaml -server.http.address=127.0.0.1:9090 -server.grpc.address=127.0.0.1:9091
+ 191533 alex      20   0   11904   5632   3584 R   1.0   0.0   0:00.30 top -d 1 -b -i -c -w 512 -n 60
+
+top - 07:19:52 up 9 days,  5:52,  3 users,  load average: 0.09, 0.06, 0.01
+Tasks: 452 total,   1 running, 451 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.0 sy,  0.0 ni, 99.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 128716.8 total,   2267.5 free,   3197.0 used, 124479.4 buff/cache     
+MiB Swap: 135162.0 total, 135053.8 free,    108.2 used. 125519.8 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 188744 www-data  20   0   93180  38908   7168 S   4.0   0.0   6:02.67 nginx: worker process
+ 191533 alex      20   0   11904   5632   3584 R   1.0   0.0   0:00.31 top -d 1 -b -i -c -w 512 -n 60
+
+top - 07:19:53 up 9 days,  5:52,  3 users,  load average: 0.09, 0.06, 0.01
+Tasks: 452 total,   2 running, 450 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.2 us,  0.2 sy,  0.0 ni, 99.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 128716.8 total,   2249.0 free,   3201.8 used, 124493.0 buff/cache     
+MiB Swap: 135162.0 total, 135053.8 free,    108.2 used. 125515.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   1523 grafana+  20   0 4734196  74212  17112 S   4.0   0.1 213:54.18 /usr/bin/grafana-agent --config.file /etc/grafana-agent.yaml -server.http.address=127.0.0.1:9090 -server.grpc.address=127.0.0.1:9091
+ 188744 www-data  20   0   93180  38908   7168 S   3.0   0.0   6:02.70 nginx: worker process
+      1 root      20   0   23264  12796   8188 S   1.0   0.0   1:56.67 /sbin/init noibrs noibpb nospectre_v2 nospec_store_bypass_disable no_stf_barrier
+ 191533 alex      20   0   11904   5632   3584 R   1.0   0.0   0:00.32 top -d 1 -b -i -c -w 512 -n 60
+
+top - 07:19:54 up 9 days,  5:52,  3 users,  load average: 0.09, 0.06, 0.01
+Tasks: 452 total,   1 running, 451 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.1 sy,  0.0 ni, 99.9 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 128716.8 total,   2249.0 free,   3201.8 used, 124493.0 buff/cache     
+MiB Swap: 135162.0 total, 135053.8 free,    108.2 used. 125515.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 188744 www-data  20   0   93180  38908   7168 S   3.0   0.0   6:02.73 nginx: worker process
+   1523 grafana+  20   0 4734196  74212  17112 S   1.0   0.1 213:54.19 /usr/bin/grafana-agent --config.file /etc/grafana-agent.yaml -server.http.address=127.0.0.1:9090 -server.grpc.address=127.0.0.1:9091
+
+top - 07:19:55 up 9 days,  5:52,  3 users,  load average: 0.09, 0.06, 0.01
+Tasks: 452 total,   1 running, 451 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.1 sy,  0.0 ni, 99.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 128716.8 total,   2249.0 free,   3201.8 used, 124493.0 buff/cache     
+MiB Swap: 135162.0 total, 135053.8 free,    108.2 used. 125515.0 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 188744 www-data  20   0   93180  38908   7168 S   4.0   0.0   6:02.77 nginx: worker process
+   1523 grafana+  20   0 4734196  74212  17112 S   1.0   0.1 213:54.20 /usr/bin/grafana-agent --config.file /etc/grafana-agent.yaml -server.http.address=127.0.0.1:9090 -server.grpc.address=127.0.0.1:9091
+ 188747 www-data  20   0   89932  36764   7168 S   1.0   0.0   0:08.71 nginx: worker process
+ 191533 alex      20   0   11904   5632   3584 R   1.0   0.0   0:00.33 top -d 1 -b -i -c -w 512 -n 60
+
+top - 07:19:56 up 9 days,  5:52,  3 users,  load average: 0.08, 0.06, 0.01
+Tasks: 452 total,   1 running, 451 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.1 sy,  0.0 ni, 99.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 128716.8 total,   2232.1 free,   3204.3 used, 124507.6 buff/cache     
+MiB Swap: 135162.0 total, 135053.8 free,    108.2 used. 125512.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 188744 www-data  20   0   93180  38908   7168 S   5.0   0.0   6:02.82 nginx: worker process
+   1523 grafana+  20   0 4734196  74212  17112 S   1.0   0.1 213:54.21 /usr/bin/grafana-agent --config.file /etc/grafana-agent.yaml -server.http.address=127.0.0.1:9090 -server.grpc.address=127.0.0.1:9091
+
+top - 07:19:57 up 9 days,  5:52,  3 users,  load average: 0.08, 0.06, 0.01
+Tasks: 452 total,   1 running, 451 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.1 sy,  0.0 ni, 99.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 128716.8 total,   2232.1 free,   3204.3 used, 124507.6 buff/cache     
+MiB Swap: 135162.0 total, 135053.8 free,    108.2 used. 125512.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 188744 www-data  20   0   93180  38908   7168 S   4.0   0.0   6:02.86 nginx: worker process
+   1523 grafana+  20   0 4734196  74212  17112 S   1.0   0.1 213:54.22 /usr/bin/grafana-agent --config.file /etc/grafana-agent.yaml -server.http.address=127.0.0.1:9090 -server.grpc.address=127.0.0.1:9091
+ 191337 root      20   0       0      0      0 I   1.0   0.0   0:00.11 [kworker/u66:0-btrfs-endio]
+ 191533 alex      20   0   11904   5632   3584 R   1.0   0.0   0:00.34 top -d 1 -b -i -c -w 512 -n 60
+
+top - 07:19:58 up 9 days,  5:52,  3 users,  load average: 0.08, 0.06, 0.01
+Tasks: 452 total,   1 running, 451 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.1 sy,  0.0 ni, 99.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 128716.8 total,   2232.1 free,   3204.3 used, 124507.6 buff/cache     
+MiB Swap: 135162.0 total, 135053.8 free,    108.2 used. 125512.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 188744 www-data  20   0   93180  38908   7168 S   4.0   0.0   6:02.90 nginx: worker process
+   1523 grafana+  20   0 4734196  74212  17112 S   2.0   0.1 213:54.24 /usr/bin/grafana-agent --config.file /etc/grafana-agent.yaml -server.http.address=127.0.0.1:9090 -server.grpc.address=127.0.0.1:9091
+   1406 root      20   0 2761840  12800   4096 S   1.0   0.0   5:27.88 /usr/bin/containerd
+ 188747 www-data  20   0   89932  36764   7168 S   1.0   0.0   0:08.72 nginx: worker process
+ 191533 alex      20   0   11904   5632   3584 R   1.0   0.0   0:00.35 top -d 1 -b -i -c -w 512 -n 60
+
+top - 07:19:59 up 9 days,  5:52,  3 users,  load average: 0.08, 0.06, 0.01
+Tasks: 452 total,   1 running, 451 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.1 sy,  0.0 ni, 99.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 128716.8 total,   2218.0 free,   3204.9 used, 124521.0 buff/cache     
+MiB Swap: 135162.0 total, 135053.8 free,    108.2 used. 125511.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 188744 www-data  20   0   93180  38908   7168 S   5.0   0.0   6:02.95 nginx: worker process
+ 191533 alex      20   0   11904   5632   3584 R   1.0   0.0   0:00.36 top -d 1 -b -i -c -w 512 -n 60
+
+top - 07:20:00 up 9 days,  5:52,  3 users,  load average: 0.08, 0.06, 0.01
+Tasks: 452 total,   1 running, 451 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.1 sy,  0.0 ni, 99.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 128716.8 total,   2218.0 free,   3204.9 used, 124521.0 buff/cache     
+MiB Swap: 135162.0 total, 135053.8 free,    108.2 used. 125511.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 188744 www-data  20   0   93180  38908   7168 S   3.0   0.0   6:02.98 nginx: worker process
+   1523 grafana+  20   0 4734196  74212  17112 S   1.0   0.1 213:54.25 /usr/bin/grafana-agent --config.file /etc/grafana-agent.yaml -server.http.address=127.0.0.1:9090 -server.grpc.address=127.0.0.1:9091
+
+top - 07:20:01 up 9 days,  5:52,  3 users,  load average: 0.08, 0.06, 0.01
+Tasks: 452 total,   1 running, 451 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.1 sy,  0.0 ni, 99.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 128716.8 total,   2218.0 free,   3204.9 used, 124521.0 buff/cache     
+MiB Swap: 135162.0 total, 135053.8 free,    108.2 used. 125511.9 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 188744 www-data  20   0   93180  38908   7168 S   5.0   0.0   6:03.03 nginx: worker process
+   1523 grafana+  20   0 4734196  74212  17112 S   1.0   0.1 213:54.26 /usr/bin/grafana-agent --config.file /etc/grafana-agent.yaml -server.http.address=127.0.0.1:9090 -server.grpc.address=127.0.0.1:9091
+ 191533 alex      20   0   11904   5632   3584 R   1.0   0.0   0:00.37 top -d 1 -b -i -c -w 512 -n 60
+
+top - 07:20:02 up 9 days,  5:52,  3 users,  load average: 0.08, 0.06, 0.01
+Tasks: 452 total,   1 running, 451 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.1 sy,  0.0 ni, 99.7 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 128716.8 total,   2193.7 free,   3203.3 used, 124546.9 buff/cache     
+MiB Swap: 135162.0 total, 135053.8 free,    108.2 used. 125513.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 188744 www-data  20   0   93180  38908   7168 S   4.0   0.0   6:03.07 nginx: worker process
+   1523 grafana+  20   0 4734196  74212  17112 S   1.0   0.1 213:54.27 /usr/bin/grafana-agent --config.file /etc/grafana-agent.yaml -server.http.address=127.0.0.1:9090 -server.grpc.address=127.0.0.1:9091
+ 191533 alex      20   0   11904   5632   3584 R   1.0   0.0   0:00.38 top -d 1 -b -i -c -w 512 -n 60
+
+top - 07:20:03 up 9 days,  5:52,  3 users,  load average: 0.08, 0.06, 0.01
+Tasks: 452 total,   1 running, 451 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.1 sy,  0.0 ni, 99.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 128716.8 total,   2193.7 free,   3203.3 used, 124546.9 buff/cache     
+MiB Swap: 135162.0 total, 135053.8 free,    108.2 used. 125513.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 188744 www-data  20   0   93180  38908   7168 S   4.0   0.0   6:03.11 nginx: worker process
+   1523 grafana+  20   0 4734196  74212  17112 S   2.0   0.1 213:54.29 /usr/bin/grafana-agent --config.file /etc/grafana-agent.yaml -server.http.address=127.0.0.1:9090 -server.grpc.address=127.0.0.1:9091
+
+top - 07:20:04 up 9 days,  5:52,  3 users,  load average: 0.08, 0.06, 0.01
+Tasks: 452 total,   2 running, 450 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.1 sy,  0.0 ni, 99.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 128716.8 total,   2193.7 free,   3203.3 used, 124546.9 buff/cache     
+MiB Swap: 135162.0 total, 135053.8 free,    108.2 used. 125513.6 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 188744 www-data  20   0   93180  38908   7168 R   5.0   0.0   6:03.16 nginx: worker process
+ 191533 alex      20   0   11904   5632   3584 R   2.0   0.0   0:00.40 top -d 1 -b -i -c -w 512 -n 60
+   1523 grafana+  20   0 4734196  74212  17112 S   1.0   0.1 213:54.30 /usr/bin/grafana-agent --config.file /etc/grafana-agent.yaml -server.http.address=127.0.0.1:9090 -server.grpc.address=127.0.0.1:9091
+ 191339 root      20   0       0      0      0 I   1.0   0.0   0:00.11 [kworker/u66:2-btrfs-endio]
+
+top - 07:20:05 up 9 days,  5:52,  3 users,  load average: 0.08, 0.06, 0.01
+Tasks: 452 total,   1 running, 451 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.1 sy,  0.0 ni, 99.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 128716.8 total,   2170.0 free,   3205.6 used, 124568.3 buff/cache     
+MiB Swap: 135162.0 total, 135053.8 free,    108.2 used. 125511.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 188744 www-data  20   0   93180  38908   7168 S   3.0   0.0   6:03.19 nginx: worker process
+    220 root      39  19       0      0      0 S   1.0   0.0   0:05.60 [khugepaged]
+   1523 grafana+  20   0 4734196  74212  17112 S   1.0   0.1 213:54.31 /usr/bin/grafana-agent --config.file /etc/grafana-agent.yaml -server.http.address=127.0.0.1:9090 -server.grpc.address=127.0.0.1:9091
+
+top - 07:20:06 up 9 days,  5:52,  3 users,  load average: 0.07, 0.06, 0.01
+Tasks: 452 total,   1 running, 451 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.1 us,  0.1 sy,  0.0 ni, 99.8 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 128716.8 total,   2170.0 free,   3205.6 used, 124568.3 buff/cache     
+MiB Swap: 135162.0 total, 135053.8 free,    108.2 used. 125511.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+ 188744 www-data  20   0   93180  38908   7168 S   5.0   0.0   6:03.24 nginx: worker process
+   1523 grafana+  20   0 4734196  74212  17112 S   1.0   0.1 213:54.32 /usr/bin/grafana-agent --config.file /etc/grafana-agent.yaml -server.http.address=127.0.0.1:9090 -server.grpc.address=127.0.0.1:9091
+ 191521 root      20   0       0      0      0 I   1.0   0.0   0:00.02 [kworker/u66:1-btrfs-endio]
+ 191529 root      20   0       0      0      0 I   1.0   0.0   0:00.04 [kworker/u66:3-btrfs-endio]
+ 191533 alex      20   0   11904   5632   3584 R   1.0   0.0   0:00.41 top -d 1 -b -i -c -w 512 -n 60
+
+top - 07:20:07 up 9 days,  5:52,  3 users,  load average: 0.07, 0.06, 0.01
+Tasks: 452 total,   1 running, 451 sleeping,   0 stopped,   0 zombie
+%Cpu(s):  0.2 us,  0.1 sy,  0.0 ni, 99.6 id,  0.0 wa,  0.0 hi,  0.0 si,  0.0 st 
+MiB Mem : 128716.8 total,   2170.0 free,   3205.6 used, 124568.3 buff/cache     
+MiB Swap: 135162.0 total, 135053.8 free,    108.2 used. 125511.3 avail Mem 
+
+    PID USER      PR  NI    VIRT    RES    SHR S  %CPU  %MEM     TIME+ COMMAND
+   1523 grafana+  20   0 4734196  74212  17112 S   5.9   0.1 213:54.38 /usr/bin/grafana-agent --config.file /etc/grafana-agent.yaml -server.http.address=127.0.0.1:9090 -server.grpc.address=127.0.0.1:9091
+ 188744 www-data  20   0   93180  38908   7168 S   4.0   0.0   6:03.28 nginx: worker process
