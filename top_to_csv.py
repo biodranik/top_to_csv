@@ -10,10 +10,11 @@ TOP_HEADER_RE = re.compile(r"^\s*PID\s")
 
 
 def top_to_csv(path_to_top_log: str):
-    pid_to_name: dict = {}
-    rows: list = []
+    pid_to_name: dict[int, str] = {}
+    measurements: list[dict[int, int]] = []
+
     with open(path_to_top_log, "r") as file:
-        row: dict = {}
+        pid_to_cpu: dict[int, int] = {}
         measurement_index: int = -1
 
         for line in file:
@@ -21,9 +22,9 @@ def top_to_csv(path_to_top_log: str):
             if TOP_HEADER_RE.search(line):
                 measurement_index += 1
                 # Drop the first measurement, it is inaccurate as top needs a delay to properly calculate it.
-                if measurement_index > 1 and len(row) > 0:
-                    rows.append(row)
-                row = {}
+                if measurement_index > 1 and len(pid_to_cpu) > 0:
+                    measurements.append(pid_to_cpu)
+                pid_to_cpu = {}
                 continue
             #  188744 www-data  20   0   93180  38908   7168 S   4.0   0.0   6:03.28 nginx: worker process
             if line.startswith(" "):
@@ -34,17 +35,19 @@ def top_to_csv(path_to_top_log: str):
                 # name = " ".join(values[11:])  # join back the command line arguments
 
                 pid_to_name[pid] = name
-                row[pid] = cpu
+                pid_to_cpu[pid] = cpu
         # Also process the last element.
-        if len(row) > 0:
-            rows.append(row)
+        if len(pid_to_cpu) > 0:
+            measurements.append(pid_to_cpu)
 
     # Create CSV
     # CSV header goes first
     csv_content: str = (
         "command"
         + CSV_DELIMITER
-        + CSV_DELIMITER.join(str(seconds) for seconds in range(1, len(rows) + 1))
+        + CSV_DELIMITER.join(
+            str(seconds) for seconds in range(1, len(measurements) + 1)
+        )
         + "\n"
     )
 
@@ -52,7 +55,8 @@ def top_to_csv(path_to_top_log: str):
         csv_content += name + CSV_DELIMITER
 
         csv_content += CSV_DELIMITER.join(
-            str(row[pid] if pid in row else ZERO_FILLER) for row in rows
+            str(pid_to_cpu[pid] if pid in pid_to_cpu else ZERO_FILLER)
+            for pid_to_cpu in measurements
         )
         csv_content += "\n"
 
