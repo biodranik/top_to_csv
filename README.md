@@ -6,9 +6,9 @@ Now the script supports Linux, was tested on Ubuntu 22+.
 
 ## How to use
 
-1. Record `top` output using the command:
+1. Record `top` output using the command (stop recording at any time using ctrl+C):
 ```bash
-top -b -d 1 -c -i -w 512 > top.log > $(date +%y%m%d-%H%M%S).top.log
+top -b -d 1 -c -i -w 512 > $(date +%y%m%d-%H%M%S).top.log
 ```
 Where:
 - `-b`: batch mode useful for machine parsing
