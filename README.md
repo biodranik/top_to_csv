@@ -1,4 +1,4 @@
-# Convert top batch mode logs into csv files to analyze the CPU usage
+# Convert top batch mode logs into csv files to analyze CPU and memory usage
 
 ## Requirements
 
@@ -26,6 +26,14 @@ Optional switches:
 ```bash
 python3 top_to_csv.py top.log [2nd.top.log ...]
 ```
+
+3. Or convert recorded output into a memory usage CSV file:
+
+```bash
+python3 top_to_csv.py --memory top.log [2nd.top.log ...]
+```
+
+Optionally, use `-p` argument to print only the process name without its full path.
 
 Possible CSV output:
 
